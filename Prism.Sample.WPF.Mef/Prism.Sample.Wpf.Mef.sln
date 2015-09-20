@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{881D7A7A-87CF-4C0D-BB61-360799489020}"
 EndProject
@@ -11,15 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessServiceModule", "Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessServiceInterface", "BusinessServiceInterface\BusinessServiceInterface.csproj", "{B703BF66-A4CB-4772-B0CB-3C124A0E2527}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism", "Prism", "{5273F0B7-FBE1-4BB6-96EB-ADF8499ECAA5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Shell\Shell.csproj", "{DE291533-47C0-4A7A-AF38-CFF747CEA44A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism", "..\..\Prism\Source\Prism\Prism.csproj", "{E6C50355-D01E-4CAA-884D-D7929861315C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Wpf", "..\..\Prism\Source\Wpf\Prism.Wpf\Prism.Wpf.csproj", "{5912FF03-C72B-4F56-BAA1-8642FDBFBC26}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Mef.Wpf", "..\..\Prism\Source\Wpf\Prism.Mef.Wpf\Prism.Mef.Wpf.csproj", "{3D6AEBE9-F824-4350-A007-EAC3CF030338}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,18 +35,6 @@ Global
 		{DE291533-47C0-4A7A-AF38-CFF747CEA44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE291533-47C0-4A7A-AF38-CFF747CEA44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE291533-47C0-4A7A-AF38-CFF747CEA44A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6C50355-D01E-4CAA-884D-D7929861315C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6C50355-D01E-4CAA-884D-D7929861315C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6C50355-D01E-4CAA-884D-D7929861315C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6C50355-D01E-4CAA-884D-D7929861315C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5912FF03-C72B-4F56-BAA1-8642FDBFBC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5912FF03-C72B-4F56-BAA1-8642FDBFBC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5912FF03-C72B-4F56-BAA1-8642FDBFBC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5912FF03-C72B-4F56-BAA1-8642FDBFBC26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D6AEBE9-F824-4350-A007-EAC3CF030338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D6AEBE9-F824-4350-A007-EAC3CF030338}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D6AEBE9-F824-4350-A007-EAC3CF030338}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D6AEBE9-F824-4350-A007-EAC3CF030338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,8 +43,5 @@ Global
 		{721F1BD5-82FD-4F12-9337-EDAA614732E8} = {881D7A7A-87CF-4C0D-BB61-360799489020}
 		{5FBF3A56-A6B2-48D3-93CD-49DCD77113CD} = {881D7A7A-87CF-4C0D-BB61-360799489020}
 		{B703BF66-A4CB-4772-B0CB-3C124A0E2527} = {881D7A7A-87CF-4C0D-BB61-360799489020}
-		{E6C50355-D01E-4CAA-884D-D7929861315C} = {5273F0B7-FBE1-4BB6-96EB-ADF8499ECAA5}
-		{5912FF03-C72B-4F56-BAA1-8642FDBFBC26} = {5273F0B7-FBE1-4BB6-96EB-ADF8499ECAA5}
-		{3D6AEBE9-F824-4350-A007-EAC3CF030338} = {5273F0B7-FBE1-4BB6-96EB-ADF8499ECAA5}
 	EndGlobalSection
 EndGlobal
